@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+
+
+
+    background-image: url(https://preview.colorlib.com/theme/podca/images/hero_bg_1.jpg.webp);
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title1 h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon1 h2 a {
+    color: white;
+    text-decoration: none;
+}
+.titles{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+nav .container{
+    width: 80%;
+    margin: 0 10%;
+}
+.title2{
+    text-align: center;
+    padding-top: 90px;
+}
+.title2 h1{
+    font-size:50px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+.title2 p{
+    color: white;
+}
+.title2 button{
+    width: 170px;
+    height: 70px;
+    color: #fff;
+    background-color: #f23a2e;
+    border-color: #f23a2e;
+}
+
+.play1{
+    height: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    display: flex;
+    width: 50%;
+    gap: 30px;
+}
+.play1 i{
+    color: white;
+    font-size: 20px;
+display: flex;
+align-items: center;
+}
+.plays{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.play1 span{
+    color: white;
+
+}
+.play1 span.time1{
+ 
+    padding-left: 80px;
+}
+.step2 h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.card{
+    border: none;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+.card-body h3{
+    font-family: 'Noto Sans', sans-serif;
+    color: brown;
+}
+
+.volume{
+    background-color: black;
+}
+.volume i{
+    color: white;
+}
+span.time2{
+    color: white;
+}
+span.time3{
+    color: white;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+}
+.row4{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;  
+}
+.circles{
+    display: flex;
+    justify-content: center;
+padding-top: 30px;
+}
+
+
+.circles li{
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    color: #f23a2e;
+}
+.circles li.num{
+    color: white;
+    background-color: #f23a2e;
+}
+.page3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rows{
+   
+width: 80%;
+margin: 0 10%;
+}
+.end{
+    text-align: center;
+    padding-top: 30px;
+}
+/* .end ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 70px;
+} */
+.end img{
+    border-radius: 50%;
+}
+    
